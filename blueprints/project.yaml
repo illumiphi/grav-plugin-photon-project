@@ -1,0 +1,22 @@
+title: Project
+@extends:
+    type: article
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      fields:
+        header.project:
+          type: tab
+          title: ✴ Project
+          icon: folder
+          text: Enter details for this person
+
+          fields:
+
+            .notes:
+              type: textarea
+              label: Notes
+              help: Notes about this page
+              size: large
