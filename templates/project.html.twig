@@ -1,8 +1,12 @@
 {% extends 'article.html.twig' %}
-{% block body_template_classes %}{{ parent() }} project{% endblock body_template_classes %}
+{% set type = "project" %}
+{% block template %}
+{{ parent() }}
+<!-- user/plugins/photon-{{ type }}/templates/{{ type }}.html.twig -->
+{% endblock %}
+{% block body_template_classes %}{{ parent() }} {{ type }}{% endblock body_template_classes %}
 
-{% block content %}
-
-  {{ parent() }}
-
-{% endblock content %}
+{% block schema %}
+{{ parent() }}
+{% include '_json-ld/' ~ type ~ '.html.twig' ignore missing  %}
+{% endblock schema %}
