@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": ";AAAA,+CAA+C;AAI/C,kDAAkD;AAGlD,mDAAmD",
-"sources": ["../scss/project.scss"],
-"names": [],
-"file": "project.css"
-}
+{"version":3,"sourceRoot":"","sources":["../scss/project.scss"],"names":[],"mappings":";AAAA;AAIA;AAGA","file":"project.css"}
