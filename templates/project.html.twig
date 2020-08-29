@@ -2,7 +2,9 @@
 {% set type = "project" %}
 {% block template %}
 {{ parent() }}
+{% if config.system.debugger.enabled %}
 <!-- user/plugins/photon-{{ type }}/templates/{{ type }}.html.twig -->
+{% endif %}
 {% endblock %}
 {% block body_template_classes %}{{ parent() }} {{ type }}{% endblock body_template_classes %}
 
