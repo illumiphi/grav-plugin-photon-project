@@ -81,7 +81,7 @@ class PhotonProjectPlugin extends Plugin
 
       // styles
       $css = 'plugin://photon-project/assets/project.css';
-      $assets->addCss($css, 100, false, 'photon-plugins' );
+      $assets->addCss($css, 100, 'pipeline', 'photon-plugins' );
 
       // only load the vars if this datatype page
       if ($page->template() == 'project')
