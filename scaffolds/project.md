@@ -10,8 +10,6 @@ date: ${post_date}
 author: ${author}
 content:
     title: Actions
-    showCount: true
-    showMenu: true
     items: '@self.children'
 taxonomy:
     category: 
