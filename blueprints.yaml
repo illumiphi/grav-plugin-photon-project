@@ -1,15 +1,14 @@
 name: photon ✴ Project
 version: 0.1.0
 description: project templates and styles
-icon: asterisk
 author:
   name: phi ARCHITECT
   email: phi@photon-platform.net
 homepage: https://github.com/photon-platform/grav-plugin-photon-project
-demo: https://photon-platform.net
-keywords: datatype, photon
+docs: https://photon-platform.github.io/grav-plugin-photon-post/
 bugs: https://github.com/photon-platform/grav-plugin-photon-project/issues
-docs: https://github.com/photon-platform/grav-plugin-photon-project/blob/develop/README.md
+keywords: datatype, photon
+icon: asterisk
 license: MIT
 
 dependencies:
