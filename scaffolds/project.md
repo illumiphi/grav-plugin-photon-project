@@ -1,8 +1,8 @@
 % name: Project
 % def: post_date=$(date +%m/%d/%Y)
-% def: author='/home'
-% def: start_dt=$(date +%Y-%m-%d)
-% def: end_dt=$(date +%Y-%m-%d)
+% def: author='/phi'
+% def: start_dt=$(date +%m/%d/%Y)
+% def: end_dt=$(date +%m/%d/%Y)
 ---
 title: ${title}
 subtitle: ${subtitle}
