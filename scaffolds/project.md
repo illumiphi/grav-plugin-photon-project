@@ -13,10 +13,8 @@ content:
     items: '@self.children'
 taxonomy:
     category: 
-        - ${category}
+        - project
     tag: 
-        - ${tag}
-show_gallery: false
 data:
     project:
         '@type': Project
